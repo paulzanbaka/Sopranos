@@ -7,8 +7,7 @@
 <name>Sopranos Pizza</name>
 
 <description>
-Sopranos Pizza & Mediterranean Grill
-Italian Restaurant
+Sopranos Pizza Mediterranean Grill Italian Restaurant
 </description>
 
 <author href="http://www.sopranosofpalmbay.com/" email="paul.zanbaka@gmail.com">
@@ -19,9 +18,7 @@ Paul Zanbaka
 <gap:platform name="android" />
 <gap:platform name="winphone" />
 
-    <feature name="http://api.phonegap.com/1.0/contacts"/>
-    <feature name="http://api.phonegap.com/1.0/file"/>
-    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+
 
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>
