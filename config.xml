@@ -30,7 +30,7 @@ Paul Zanbaka
 
 </feature>
 
- <!-- <access origin="*" />-->
+
   <access origin="http://www.sopranosofpalmbay.com/"  subdomains="true" browserOnly="false" /> 
 <access uri="http://maps.google.com" subdomains="true" />
 <!-- access to all domains need to chnage after fb test -->
