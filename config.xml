@@ -1,36 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.sopranosofpalmbay.piz"
+    id        = "com.sopranosofpalmbaypizza"
     version   = "1.0.0">
  <icon src="icon.jpg" />
-<name>Sopranos Pizza </name>
-
+<name>Sopranos Pizza</name>
 <description>
 Sopranos Pizza  Mediterranean Grill Italian Restaurant
 </description>
-
 <author href="http://www.sopranosofpalmbay.com/" email="paul.zanbaka@gmail.com">
 Paul Zanbaka
 </author>
-
 <gap:platform name="ios" />
 <gap:platform name="android" />
 <gap:platform name="winphone" />
-
-    <feature name="http://api.phonegap.com/1.0/contacts"/>
+  <feature name="http://api.phonegap.com/1.0/contacts"/>
     <feature name="http://api.phonegap.com/1.0/file"/>
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
-
     <feature name="http://api.phonegap.com/1.0/network"/>
     <feature name="http://api.phonegap.com/1.0/notification"/>
 	 <feature name="http://api.phonegap.com/1.0/internet"/>
-<feature name="Geolocation">
-    <param name="android-package" value="org.apache.cordova.GeoBroker" />
-
-</feature>
-
-
   <access origin="http://www.sopranosofpalmbay.com/"  subdomains="true" browserOnly="false" /> 
 <access uri="http://maps.google.com" subdomains="true" />
 <!-- access to all domains need to chnage after fb test -->
@@ -42,9 +31,6 @@ Paul Zanbaka
 <access uri="http://facebook.com" subdomains="true" />
 <access uri="http://www.pugnplay.com" subdomains="true" />
 <access uri="https://www.pugnplay.com" subdomains="true" />
-  <!-- This will open inside an app--> 
 
-<access uri="http://fb.pugnplay.com" subdomains="true" />
-  <!-- FB Connect Section -->
 
 </widget>
