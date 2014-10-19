@@ -3,7 +3,7 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.sopranosofpalmbay.pizza"
     version   = "1.0.0">
- <icon src="icon.png" />
+ <icon src="icon.jpg" />
 <name>Sopranos Pizza</name>
 
 <description>
